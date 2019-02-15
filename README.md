@@ -19,3 +19,6 @@ In order to maintain a personal library ecosystem you need a list of `META6.json
 
 On the client side you need to tell Zef the existence of your local ecosystem but updating it's config.
 
+## Notes on zef
+
+The default zef config location can be got from `zef --help` plan is to read that, add the local meta data list and write to `~$HOME/.config/zef/config.json` leaving the original untouched.
